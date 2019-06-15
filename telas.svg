@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-3975.5462"
-     inkscape:cy="-206.05478"
+     inkscape:zoom="0.175"
+     inkscape:cx="-3648.9742"
+     inkscape:cy="6.5531958"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1915,7 +1915,179 @@
            x="-3876.9656"
            y="1184.139"
            style="fill:#ffffff" /></flowRegion><flowPara
-         id="flowPara1473">William Ramos</flowPara></flowRoot>  </g>
+         id="flowPara1473">William Ramos</flowPara></flowRoot>    <g
+       id="g1618"
+       style="fill:none"
+       inkscape:export-filename="/home/adailson/dev/quiz/src/imgs/placar.png"
+       inkscape:export-xdpi="348.95752"
+       inkscape:export-ydpi="348.95752">
+      <rect
+         ry="0"
+         y="717.13989"
+         x="-1104.2003"
+         height="53.453907"
+         width="53.453907"
+         id="rect1592"
+         style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:none;stroke-width:1.60099995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0"
+         y="717.13989"
+         x="-1050.7465"
+         height="53.453907"
+         width="53.453907"
+         id="rect1592-0"
+         style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:none;stroke-width:1.60099995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         ry="0"
+         y="717.13989"
+         x="-997.29254"
+         height="53.453907"
+         width="53.453907"
+         id="rect1592-3"
+         style="opacity:0.98000004;fill:none;fill-opacity:1;stroke:none;stroke-width:1.60099995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1641"
+       transform="translate(-1.2158723,60.575177)">
+      <rect
+         style="fill:#102d55;fill-opacity:1;stroke-width:0.3115176"
+         id="rect4880-4-9-0"
+         width="128.31303"
+         height="33.320435"
+         x="-1084.1676"
+         y="665.29865"
+         ry="6.9852295" />
+      <g
+         transform="matrix(0.43757075,0,0,0.43757075,-1096.3162,655.28714)"
+         data-name="39 Trophy"
+         id="_39_Trophy-5">
+        <rect
+           style="fill:#ffce47"
+           class="cls-1"
+           height="29.540001"
+           width="12"
+           x="58"
+           y="73"
+           id="rect1338-8" />
+        <rect
+           style="fill:#ffda75"
+           class="cls-2"
+           height="29.540001"
+           width="1.1799999"
+           x="58"
+           y="73"
+           id="rect1340-6" />
+        <path
+           style="fill:#f69652"
+           inkscape:connector-curvature="0"
+           class="cls-3"
+           d="m 58,73 v 12.62 a 28.93,28.93 0 0 0 6.8,1.84 2.82,2.82 0 0 1 2.44,2.77 v 12.3 H 70 V 73 Z"
+           id="path1342-2" />
+        <path
+           style="fill:#ffce47"
+           inkscape:connector-curvature="0"
+           class="cls-1"
+           d="M 90.6,74.22 H 79.48 v -8 H 90.6 A 14.42,14.42 0 0 0 105,51.82 v -7.6 a 2,2 0 0 0 -2,-2 H 89.13 v -8 H 103 a 10,10 0 0 1 10,10 v 7.6 a 22.43,22.43 0 0 1 -22.4,22.4 z"
+           id="path1344-8" />
+        <path
+           style="fill:#f69652"
+           inkscape:connector-curvature="0"
+           class="cls-3"
+           d="m 109.54,36.68 c 3,3.47 2.46,6.37 2.46,14.14 a 22.44,22.44 0 0 1 -16.13,21.5 2.46,2.46 0 0 1 -3.08,-2.94 28.14,28.14 0 0 0 0.63,-3.45 c -1.86,0.37 -1.85,0.28 -13.94,0.28 v 8 H 90.6 A 22.4,22.4 0 0 0 113,51.82 c 0,-7.35 0.79,-11.45 -3.46,-15.14 z"
+           id="path1346-4" />
+        <path
+           style="fill:#ffce47"
+           inkscape:connector-curvature="0"
+           class="cls-1"
+           d="M 48.51,74.22 H 37.4 A 22.43,22.43 0 0 1 15,51.82 v -7.6 a 10,10 0 0 1 10,-10 h 13.87 v 8 H 25 a 2,2 0 0 0 -2,2 v 7.6 a 14.42,14.42 0 0 0 14.4,14.4 h 11.11 z"
+           id="path1348-7" />
+        <path
+           style="fill:#f69652"
+           inkscape:connector-curvature="0"
+           class="cls-3"
+           d="m 37.87,34.22 v 7 h -3.06 l 0.07,-7 L 34,39 a 2.66,2.66 0 0 1 -2.62,2.2 H 24 a 2,2 0 0 0 -2,2 c 0,7.59 -0.88,13.15 4.75,18.25 A 14.33,14.33 0 0 1 23,51.82 v -7.6 a 2,2 0 0 1 2,-2 h 13.87 v -8 z"
+           id="path1350-2" />
+        <rect
+           style="fill:#f69652"
+           class="cls-3"
+           height="8"
+           width="3.0699999"
+           x="35.810001"
+           y="34.220001"
+           id="rect1352-4" />
+        <path
+           style="fill:#f69652"
+           inkscape:connector-curvature="0"
+           class="cls-3"
+           d="m 36.31,66.17 a 28.37,28.37 0 0 0 1.44,5 1.46,1.46 0 0 1 -1.36,2 22.31,22.31 0 0 1 -15.32,-6.08 c 7.73,8.22 16,7.08 27.43,7.08 v -8 c -12.5,0.05 -11.18,0.07 -12.19,0 z"
+           id="path1354-0" />
+        <path
+           style="fill:#ffc219"
+           inkscape:connector-curvature="0"
+           class="cls-4"
+           d="M 93.12,24.3 H 34.88 v 32.8 a 29.125,29.125 0 0 0 58.25,0 z"
+           id="path1356-6" />
+        <path
+           style="fill:#f69652"
+           inkscape:connector-curvature="0"
+           class="cls-3"
+           d="m 102,41.22 h -4 a 3.88,3.88 0 0 1 -3.84,-3.33 l -0.52,-3.67 h -4.51 v 8 c 14.92,0 14.08,-0.1 14.69,0.18 A 2,2 0 0 0 102,41.22 Z"
+           id="path1358-2" />
+        <path
+           style="fill:#ffce47"
+           inkscape:connector-curvature="0"
+           class="cls-1"
+           d="M 36.74,57.1 V 24.3 H 34.88 V 57.1 A 29.11,29.11 0 0 0 64.93,86.2 29.12,29.12 0 0 1 36.74,57.1 Z"
+           id="path1360-9" />
+        <path
+           style="fill:#f47c27"
+           inkscape:connector-curvature="0"
+           class="cls-5"
+           d="m 89.26,24.3 v 5.93 H 36.74 l 48.47,2.67 a 4.28,4.28 0 0 1 4,4.28 V 57.1 A 29.12,29.12 0 0 1 62.07,86.15 29.11,29.11 0 0 0 93.12,57.1 V 24.3 Z"
+           id="path1362-9" />
+        <rect
+           style="fill:#ffce47"
+           class="cls-1"
+           height="14.22"
+           rx="4"
+           ry="4"
+           width="64"
+           x="32"
+           y="16"
+           id="rect1364-0" />
+        <path
+           style="fill:#f69652"
+           inkscape:connector-curvature="0"
+           class="cls-3"
+           d="m 94.27,16.71 c 0.91,1.32 0.71,1.85 0.71,8.49 a 4,4 0 0 1 -4,4 c -60.65,0 -56.8,0.3 -58.27,-0.71 1.65,2.39 -1.28,1.73 59.29,1.73 a 4,4 0 0 0 4,-4 c 0,-6.33 0.45,-8.01 -1.73,-9.51 z"
+           id="path1366-8" />
+        <path
+           style="fill:#333333"
+           inkscape:connector-curvature="0"
+           class="cls-6"
+           d="M 88.89,112 H 39.11 a 2.37,2.37 0 0 1 -2.1,-3.46 l 6.74,-12.92 a 4.73,4.73 0 0 1 4.19,-2.54 h 32.11 a 4.73,4.73 0 0 1 4.19,2.54 L 91,108.54 A 2.37,2.37 0 0 1 88.89,112 Z"
+           id="path1368-1" />
+        <path
+           style="fill:#4d4d4d"
+           inkscape:connector-curvature="0"
+           class="cls-7"
+           d="M 37.56,108.54 44.3,95.62 a 4.73,4.73 0 0 1 4.19,-2.54 c -2.1,0 -3.76,0.66 -4.74,2.54 L 37,108.54 a 2.37,2.37 0 0 0 2.1,3.46 h 0.55 a 2.37,2.37 0 0 1 -2.09,-3.46 z"
+           id="path1370-3" />
+        <path
+           style="fill:#1f1f1f"
+           inkscape:connector-curvature="0"
+           class="cls-8"
+           d="M 91,108.54 84.25,95.62 A 4.73,4.73 0 0 0 80.06,93.08 H 47.95 l 30.47,2.49 a 4.23,4.23 0 0 1 3.46,2.37 l 4.1,8.48 a 2,2 0 0 1 -1.7,2.89 L 39.11,112 H 88.89 A 2.37,2.37 0 0 0 91,108.54 Z"
+           id="path1372-1" />
+        <path
+           style="fill:#ffda75"
+           inkscape:connector-curvature="0"
+           class="cls-2"
+           d="M 92,16 H 36 a 4,4 0 0 0 -4,4 v 6.22 l 1.44,-6.89 a 2.38,2.38 0 0 1 2.27,-1.9 z"
+           id="path1374-1" />
+      </g>
+    </g>
+  </g>
   <style
      id="style905"
      type="text/css"><![CDATA[

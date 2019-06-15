@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
 import NavigationBar from '../components/NavigationBar'
-import { View, Button, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
+import firebase from 'firebase'
 
-// import { Container } from './styles';
+import Base64 from 'Base64'
+
+// import { Container } from './styles'
 
 export default class Cadastro extends Component {
 
@@ -12,6 +15,55 @@ export default class Cadastro extends Component {
         email: '',
         telefone: '',
         senha: '',
+    }
+
+    componentDidMount() {
+        var firebaseConfig = {
+            apiKey: "AIzaSyBx7BJr64PyjrB9Nhh3xdZgxeuZTX7QBuE",
+            authDomain: "quiz-f043e.firebaseapp.com",
+            databaseURL: "https://quiz-f043e.firebaseio.com",
+            projectId: "quiz-f043e",
+            storageBucket: "quiz-f043e.appspot.com",
+            messagingSenderId: "281101740362",
+            appId: "1:281101740362:web:d0fd411bbd773c7e"
+        }
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig)
+    }
+
+    cadastroUsuario = async () => {
+
+        var database = firebase.database()
+        database.ref('pont').remove()
+
+        /*
+        let encodedEmail = Base64.btoa(this.state.email)
+
+        firebase.auth().createUserWithEmailAndPassword('adailsonaacj@live.com', '123456as')
+            .then(user => {
+                console.log(user)
+                // firebase.database().ref(`/pessoa/${encodedEmail}`).push({ nome: this.state.nome, telefone: this.state.telefone })
+                //   .then(value => console.log(value), alert('Cadastrado'))
+            })
+            .catch(error => console.log(error.code))
+            */
+    }
+
+    signUp = async () => {
+        let encodedEmail = Base64.btoa(this.state.email)
+
+        try {
+            await firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.senha)
+                .then(
+                    await firebase.database().ref(`/pessoa/${encodedEmail}`).push({ nome: this.state.nome, telefone: this.state.telefone })
+                        .then(value => console.log(value), alert('Cadastrado'))
+                )
+
+        } catch (error) {
+            this.setState({
+                response: error.toString()
+            })
+        }
     }
 
     render() {
@@ -48,7 +100,7 @@ export default class Cadastro extends Component {
                         secureTextEntry={true}
                     />
                     <TouchableOpacity
-                        onPress={() => { this.props.navigation.navigate('autenticacao') }}
+                        onPress={this.signUp}
                         style={styles.btnCadastrar}
                         underlayColor={'#ff4081ff'}
                         activeOpacity={0.90}>
@@ -63,7 +115,7 @@ export default class Cadastro extends Component {
 const styles = StyleSheet.create({
     Scene: {
         flex: 1,
-        backgroundColor:'#0e4b9bff'
+        backgroundColor: '#0e4b9bff'
     },
     Input: {
         height: 60,

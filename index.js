@@ -9,4 +9,6 @@ import { name as appName } from './app.json'
 
 const App = createAppContainer(Routes.routes)
 
-AppRegistry.registerComponent(appName, () => App);
+
+
+AppRegistry.registerComponent(appName, () => App)
