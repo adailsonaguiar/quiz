@@ -20,7 +20,7 @@ export default class Cadastro extends Component {
     signUp = async () => {
         let encodedEmail = Base64.btoa(this.state.email)
         console.log(encodedEmail)
-
+        this.props.navigation.navigate('menu')
         try {
             await firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.senha)
                 .then(

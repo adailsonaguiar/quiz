@@ -6,17 +6,24 @@ import menu from './pages/menu'
 import quiz from './pages/quiz'
 
 const routes = createStackNavigator({
-    cadastro: {
-        screen: cadastro,
-        navigationOptions: {
-            title: 'Cadastre-se',
-            header: null,
-        }
-    },
     autenticacao: {
         screen: autenticacao,
         navigationOptions: {
             title: 'Faça Login no App',
+            header: null,
+        }
+    },
+    quiz: {
+        screen: quiz,
+        navigationOptions: {
+            title: 'Manda ver!',
+            header: null,
+        }
+    },
+    cadastro: {
+        screen: cadastro,
+        navigationOptions: {
+            title: 'Cadastre-se',
             header: null,
         }
     },
@@ -27,13 +34,6 @@ const routes = createStackNavigator({
             header: null,
         },
     },
-    quiz: {
-        screen: quiz,
-        navigationOptions: {
-            title: 'Manda ver!',
-            header: null,
-        }
-    }
 })
 
 module.exports = { routes }

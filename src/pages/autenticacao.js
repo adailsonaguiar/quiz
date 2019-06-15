@@ -17,6 +17,24 @@ export default class Autenticacao extends Component {
         senha: '',
     }
 
+    signUp = async () => {
+        let encodedEmail = Base64.btoa(this.state.email)
+        console.log(encodedEmail)
+
+        try {
+            await firebase.auth().createUserWithEmailAndPassword(this.state.email, this.state.senha)
+                .then(
+                    alert('Cadastrado com Sucesso!')
+                )
+
+        } catch (error) {
+            this.setState({
+                response: error.toString()
+            })
+        }
+    }
+
+
     render() {
         return (
             <View style={styles.Scene} >
@@ -38,6 +56,13 @@ export default class Autenticacao extends Component {
                         placeholder='Digite uma senha'
                         secureTextEntry={true}
                     />
+                    <TouchableOpacity
+                        onPress={() => { this.props.navigation.navigate('cadastro') }}
+                        style={{marginBottom: 20}}
+                        underlayColor={'#ff4081ff'}
+                        activeOpacity={0.90}>
+                        <Text style={{ fontSize: 14, fontWeight: 'bold', color: 'white' }}>Cadastre-se</Text>
+                    </TouchableOpacity>
                     <TouchableOpacity
                         onPress={() => { this.props.navigation.navigate('menu') }}
                         style={styles.btnlogin}
