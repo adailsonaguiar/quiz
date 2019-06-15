@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import NavigationBar from '../components/NavigationBar'
-import { View, Button, Text, StyleSheet, TextInput } from 'react-native'
+import { View, Button, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native'
 
 // import { Container } from './styles';
 
@@ -16,8 +16,8 @@ export default class Cadastro extends Component {
 
     render() {
         return (
-            <View >
-                <NavigationBar />
+            <View style={styles.Scene} >
+                <NavigationBar titulo='Cadastre-se'/>
                 <View style={styles.form}>
                     <TextInput
                         style={styles.Input}
@@ -47,7 +47,13 @@ export default class Cadastro extends Component {
                         placeholder='Digite uma senha'
                         keyboardType='default'
                     />
-                    <Button title='Auth' color='#7b2de2ff' onPress={() => { this.props.navigation.navigate('autenticacao') }} />
+                    <TouchableOpacity
+                        onPress={() => { this.props.navigation.navigate('autenticacao') }}
+                        style={styles.btnCadastrar}
+                        underlayColor={'#ff4081ff'}
+                        activeOpacity={0.90}>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: 'white' }}>Cadastrar</Text>
+                    </TouchableOpacity>
                 </View>
             </View>
         )
@@ -55,19 +61,31 @@ export default class Cadastro extends Component {
 }
 
 const styles = StyleSheet.create({
+    Scene: {
+        flex: 1,
+    },
     Input: {
-        height: 40,
+        height: 50,
         width: 350,
         backgroundColor: '#e6e6e6ff',
         textAlign: 'left',
-        marginBottom: 15,
+        marginBottom: 50,
         fontSize: 16,
-        borderRadius: 8,
+        borderRadius: 20,
     },
     form: {
-        backgroundColor: '#000',
         flex: 1,
         alignItems: 'center',
+        justifyContent: 'center',
+    },
+    btnCadastrar: {
+        height: 55,
+        width: 200,
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: 10,
+        borderRadius: 15,
+        backgroundColor: '#7b2de2ff'
     }
 })
 

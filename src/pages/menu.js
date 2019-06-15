@@ -9,7 +9,7 @@ export default class Menu extends Component {
     render() {
         return (
             <View >
-                <NavigationBar/>
+                <NavigationBar titulo='Menu'/>
                 <Text>Menu</Text>
                 <Button title='Jogar' color='' onPress={() => { this.props.navigation.navigate('quiz') }} />
             </View>

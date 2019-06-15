@@ -13,7 +13,7 @@ export default class NavigationBar extends Component {
                     backgroundColor='#7b2de2ff'
                 />
                 <View style={{ justifyContent: 'center', alignItems: 'center', flex: 4 }}>
-                    <Text style={{ fontFamily: 'mainFontBold', color: '#fff', fontSize: 19, fontWeight: 'bold', }}>Cadastro</Text>
+                    <Text style={{ fontFamily: 'mainFontBold', color: '#fff', fontSize: 19, fontWeight: 'bold', }}>{this.props.titulo}</Text>
                 </View>
             </View>
         )

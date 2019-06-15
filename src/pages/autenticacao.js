@@ -9,7 +9,7 @@ export default class Autenticacao extends Component {
     render() {
         return (
             <View >
-                <NavigationBar />
+                <NavigationBar  titulo='Acesse com sua conta!'/>
                 <Text>Autenticacao</Text>
                 <Button title='Menu' color='' onPress={() => { this.props.navigation.navigate('menu') }} />
             </View>
