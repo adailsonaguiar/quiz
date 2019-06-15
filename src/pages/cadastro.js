@@ -17,7 +17,7 @@ export default class Cadastro extends Component {
     render() {
         return (
             <View style={styles.Scene} >
-                <NavigationBar titulo='Cadastre-se'/>
+                <NavigationBar titulo='Cadastre-se' />
                 <View style={styles.form}>
                     <TextInput
                         style={styles.Input}
@@ -45,7 +45,7 @@ export default class Cadastro extends Component {
                         value={this.state.senha}
                         onChangeText={(value) => this.setState({ senha: value })}
                         placeholder='Digite uma senha'
-                        keyboardType='default'
+                        secureTextEntry={true}
                     />
                     <TouchableOpacity
                         onPress={() => { this.props.navigation.navigate('autenticacao') }}
@@ -63,12 +63,14 @@ export default class Cadastro extends Component {
 const styles = StyleSheet.create({
     Scene: {
         flex: 1,
+        backgroundColor:'#0e4b9bff'
     },
     Input: {
-        height: 50,
+        height: 60,
         width: 350,
         backgroundColor: '#e6e6e6ff',
         textAlign: 'left',
+        paddingLeft: 25,
         marginBottom: 50,
         fontSize: 16,
         borderRadius: 20,
@@ -85,7 +87,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         padding: 10,
         borderRadius: 15,
-        backgroundColor: '#7b2de2ff'
+        backgroundColor: '#ff9700ff'
     }
 })
 
