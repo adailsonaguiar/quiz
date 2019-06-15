@@ -27,8 +27,8 @@ export default class Autenticacao extends Component {
                         style={styles.Input}
                         value={this.state.email}
                         onChangeText={(value) => this.setState({ email: value })}
-                        placeholder='Digite seu nome'
-                        keyboardType='default'
+                        placeholder='Digite seu e-mail'
+                        keyboardType='email-address'
                     />
 
                     <TextInput
